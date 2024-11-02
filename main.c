@@ -27,7 +27,7 @@ int main(void) {
     }
 
     for (int i = 0; i < sizeOfMatrix; i++) {
-        m = m-1;
+       // m = m-1;
         for (int j = 0; j < sizeOfMatrix; j++) {
             if (j == m) {
                 sum = sum + arr[i][j];
